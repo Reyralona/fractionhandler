@@ -67,5 +67,3 @@ def fraction_div(*fractions):
     first = fractions[0]
     newfractions = invert_fractions(*fractions[1:])
     fraction_mul(first, *newfractions)
-
-fraction_div([22, 32], [15, 26])
